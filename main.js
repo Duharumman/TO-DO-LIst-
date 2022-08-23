@@ -1,7 +1,7 @@
 //Setting up Variables
 
 let theInput = document.querySelector("  input");
-let AddButton = document.querySelector("  .plus");
+let AddButton = document.querySelector("  .btn");
 let tasksContainer = document.querySelector(".tasks-content");
 let tasksCount = document.querySelector(".tasks-count span ");
 let tasksCompleted = document.querySelector(".tasks-cocmpleted span");
