@@ -1,14 +1,14 @@
 //Setting up Variables
 
-let theInput = document.querySelector(".add-task input");
-let AddButton = document.querySelector(" .add-task .plus");
+let theInput = document.querySelector("  input");
+let AddButton = document.querySelector("  .plus");
 let tasksContainer = document.querySelector(".tasks-content");
 let tasksCount = document.querySelector(".tasks-count span ");
 let tasksCompleted = document.querySelector(".tasks-cocmpleted span");
 
 
-let navbar = document.getElementById("navbar");
-let sticky = navbar.offsetTop; 
+// let navbar = document.getElementById("navbar");
+// let sticky = navbar.offsetTop; 
 
 window.onload = function(){
     theInput.focus();
